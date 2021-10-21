@@ -1,4 +1,4 @@
-# BATCH-CONVERT-EXTENSION-hello-hello
+# BATCH-CONVERT-EXTENSION
 
 by [Anthony Graham](https://github.com/databoy5000/).
 
