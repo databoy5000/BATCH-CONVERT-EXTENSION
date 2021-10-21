@@ -15,6 +15,9 @@ by [Anthony Graham](https://github.com/databoy5000/).
 1. Get the source code in src/app, paste it in Script Editor and run the script or export as Application</li>
 2. ...or download application <a href="https://www.w3schools.com/">here</a>.
 3. Allow accessibility for the script to be able to control ZaxConvert and create new files in your finder.
+  + If you get "myScript is not allowed assistive access" error, go to System Preferences > Security & Privacy > Privacy (tab) > Accesibility, then add + check the script. If the app was already there, just check/uncheck
+  + [See here](https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/AutomatetheUserInterface.html#//apple_ref/doc/uid/TP40016239-CH69-SW1)
+  + if get it wrong the first time, make sure to delete any created files (they're likely to have the suffix _WIP)
 4. Once the application launched, you will be prompted</li>
     * Step 1:
     * Step 2:
