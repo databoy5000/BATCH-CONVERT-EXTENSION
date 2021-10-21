@@ -2,7 +2,7 @@
 
 by [Anthony Graham](https://github.com/databoy5000/).
 
-**BATCH-ZAXCONVERT-EXTENSION** is an AppleScript which extends from the [ZaxConvert App](https://zaxcom.com/software_update/zaxconvert-for-mac/) to allow batch converting/translating .ZAX media.
+**BATCH-CONVERT-EXTENSION** is an AppleScript which extends from the [ZaxConvert App](https://zaxcom.com/software_update/zaxconvert-for-mac/) to allow batch converting/translating .ZAX media.
 
 ## Compatibility
 <ul>
