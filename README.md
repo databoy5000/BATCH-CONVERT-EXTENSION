@@ -13,7 +13,7 @@ by [Anthony Graham](https://github.com/databoy5000/).
 
 ## Instructions
 1. Get the script...
-    1. <ins>Option 1</ins>: Download the app <a href="https://www.w3schools.com/">here</a>.
+    1. <ins>Option 1</ins>: Download the app <a href="https://ditscripts.page.link/batch-convert">here</a>. Depending on your browser, either right click on the script and download or click the **Download All** button).
     2. <ins>Option 2</ins>: Get the source code in src/app (Github repository), paste it in the Script Editor application and run the script or export as Application.
 3. Allow accessibility for the script to control ZaxConvert. Follow instructions under header **Enabling User Interface Scripting** on [this page](https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/AutomatetheUserInterface.html#//apple_ref/doc/uid/TP40016239-CH69-SW1). <ins>Notes</ins>:
     1. If you still get "&lt;myScriptName&gt; is not allowed assistive access" error, go to **System Preferences > Security & Privacy > Privacy (tab) > Accesibility**, then add the script with the '**+**' button. If the app was already there, just uncheck/check.
