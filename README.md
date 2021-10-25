@@ -14,7 +14,7 @@ by [Anthony Graham](https://github.com/databoy5000/).
 ## Instructions
 1. To get the script, copy the source code from src/app (Github repository), paste it in the Script Editor application of your mac OS and run the script or export as an **Application**.
 2. Allow accessibility for the script to control ZaxConvert. Follow instructions under header **Enabling User Interface Scripting** on [this page](https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/AutomatetheUserInterface.html#//apple_ref/doc/uid/TP40016239-CH69-SW1). <ins>Notes</ins>:
-    1. If you still get "&lt;myScriptName&gt; is not allowed assistive access" error, go to **System Preferences > Security & Privacy > Privacy (tab) > Accesibility**, then add the script with the '**+**' button. If the app was already there, just uncheck/check.
+    1. If you still get "&lt;myScriptName&gt; is not allowed assistive access" error, go to **System Preferences > Security & Privacy > Privacy (tab) > Accessibility**, then add the script with the '**+**' button. If the app was already there, just uncheck/check.
 3. Before you launch the script, make sure that the settings in ZaxConvert are set correctly to what you need them to be.
 4. Once the script launched, just follow the instructions. For those who missed the headers on prompts, here are the steps:</li>
     * Step 1: To select the <ins>OUTPUT</ins> folder.
@@ -34,6 +34,9 @@ My_Zax_Roll_01 (parent folder)¬
 * If you must stop the script, only click the "Stop" button of the progress bar. It is advised not click the "Stop" button in ZaxConvert.
 
 * This script is non destructive. It does not delete files. Instead, it re-labels folder names with suffixes and tags.
+
+## Troubleshooting
+If for some reason the script only lauches ZaxConvert and does nothing else, got to **System Preferences > Security & Privacy > Privacy (tab) > Accessibility** and uncheck + check the script.
 
 ## Bugs
 Approximately, in the 5 seconds following the start of a conversion/translation, if you decide to press the "stop" button from the ZaxConvert software window, the script will not be able to distinguish a completed/failed conversion, therefore will mark the roll as "CONVERTED". If you do press stop, make sure to delete this roll immediately and start the conversion process over again.
